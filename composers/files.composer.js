@@ -7,11 +7,10 @@ composer.command('files', async (ctx) => {
   try {
     await ctx.reply('В этом разделе собраны полезные материалы, которые могут пригодиться любому разработчику', Markup.inlineKeyboard(
       [
-        [Markup.button.callback('Репозитироии GitHub', 'btn_category_m1')],
-        [Markup.button.callback('Полезные сервисы', 'btn_category_m2')],
-        [Markup.button.callback('Иконки', 'btn_category_m3')],
-        [Markup.button.callback('3D Моделирование', 'btn_category_m4')],
-        [Markup.button.callback('Книги', 'btn_category_m5')],
+        [Markup.button.callback('Полезные сервисы', 'btn_category_m1')],
+        [Markup.button.callback('Иконки', 'btn_category_m2')],
+        [Markup.button.callback('3D Моделирование', 'btn_category_m3')],
+        [Markup.button.callback('Книги', 'btn_category_m4')],
       ]
       ))
   } catch (e) {
